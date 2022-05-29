@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+     * {
+        @apply transition-all ease-linear duration-500
+    }
+
+    body {
+        @apply antialiased bg-white text-slate-800 text-base font-mulish
+    }
+
+    img {
+        @apply object-cover
+    }
+
+    .header {
+        @apply font-jost tracking-widest font-bold
+    }
+}
